@@ -7,7 +7,7 @@ function App() {
   return (
 <>
 {/* navigation bar */}
-<div className=' w-[99.9vw] overflow-hidden'>
+<div className=' w-[99.9vw] overflow-hidden bg-black'>
 
    <Navigationbar />
 

@@ -21,14 +21,7 @@ let subject=useRef()
             setIsMobile(false)
         }
     })
-//     useEffect(()=>{
-//    let value= window.document.getElementsByTagName('input')
-//    value.forEach((ele)=>{
-//     ele.addEventListener('focus',()=>{
 
-//     })
-//    })
-//     },[])
 const [text,settext]=useState('')
 function handlefocus(e){
     console.log(e.target.id)
@@ -105,11 +98,12 @@ setTimeout(() => {
                 </div></div>
                 <br></br>
                 <div className='flex flex-row gap-3 w-[100%] justify-center'>
-                    <FaGithub size={`${ismobile?"5.5em":"2rem"}`}/>
-                    <FaLinkedin  size={`${ismobile?"5.5em":"2rem"}`} />
-                    <FaWhatsapp  size={`${ismobile?"5.5em":"2rem"}`} />
-                    <FaInstagram  size={`${ismobile?"5.5em":"2rem"}`}/>
-
+                   <a href='https://github.com/Ayushmaanagarwal1211'> <FaGithub href='https://github.com/Ayushmaanagarwal1211' size={`${ismobile?"5.5em":"2rem"}`}/>
+                   </a>
+                   <a href='https://www.linkedin.com/in/ayushmaan-agarwal-8064a4258/'> <FaLinkedin  size={`${ismobile?"5.5em":"2rem"}`} />
+                   </a>
+<a href='https://www.instagram.com/ayushmaanagarwal12?igsh=MTlxdmc0MzZsdXowag=='>                    <FaInstagram size={`${ismobile?"5.5em":"2rem"}`}/>
+</a>
                 </div>
             </div>
         </div>

@@ -133,7 +133,7 @@ useState(()=>{
   }
   
   return (<>
-    <div id="intro" className=" h-[93vh] img1   items-center img bg-blue-500 text-white  flex  flex-wrap-reverse">
+    <div id="intro" className=" h-[93vh] img1   items-center img bg-black text-white  flex  flex-wrap-reverse">
       <div className={`flex test  justify-center   ${!ismobile?"w-[50vw]  h-[60vh]":"w-[100vw]  "}`}>
         <div
           style={{
@@ -197,8 +197,7 @@ useState(()=>{
                 startanimate ? "toleftanimate" : "hidden"
               } text-target1  font-semibold`}
             >
-              Hlo It's Medolor sit amet consectetur adipisicing elit. Dolorum
-              aliquam beatae voluptatibus recusandae, nobis mollitia voluptat
+               | Passionate about crafting seamless web experiences. Proficient in front-end and back-end. Eager to contribute technical expertise and innovation to dynamic projects. 
             </span>
             <ul
               className={`${
@@ -206,15 +205,13 @@ useState(()=>{
               } flex list-none flex-row w-[100%] justify-center gap-6 mt-10 `}
             >
               <li className={`${startanimate1 ? "toupanimate1" : "opacity-0"}`}>
-              <div className="parentdiv relative flex justify-center items-center   overflow-hidden" style={{borderRadius:"50%"}}> <div className="inline text1 h-[95%]  w-[95%] z-[20]  absolute"></div> <div className="z-[99] h-auto w-auto bg-black   " style={{borderRadius:"50%",margin:"2px"}}><FaGithub size={`${ismobile?"3.5em":"1.5em"}`} style={{zIndex:"99"}}/></div></div>
+              <div className="parentdiv relative flex justify-center items-center   overflow-hidden" style={{borderRadius:"50%"}}> <div className="inline text1 h-[95%]  w-[95%] z-[20]  absolute"></div> <a className="z-[99] h-auto w-auto bg-black   " href="https://github.com/Ayushmaanagarwal1211" style={{borderRadius:"50%",margin:"2px"}}><FaGithub size={`${ismobile?"3.5em":"1.5em"}`} style={{zIndex:"99"}}/></a></div>
               </li>
               <li className={`${startanimate2 ? "toupanimate1" : "opacity-0"}`}>
-              <div className="parentdiv relative flex justify-center items-center   overflow-hidden" style={{borderRadius:"50%"}}> <div className="inline text1 h-[95%]  w-[95%] z-[20]  absolute"></div> <div className="z-[99] h-[auto] w-[auto] overflow-hidden bg-black   " style={{borderRadius:"50%",margin:"2px"}}><FaLinkedin size={`${ismobile?"3.5em":"1.5em"}`}  style={{zIndex:"99"}}/></div></div>              </li>
-              <li className={`${startanimate3 ? "toupanimate1" : "opacity-0"}`}>
-              <div className="parentdiv relative flex justify-center items-center   overflow-hidden" style={{borderRadius:"50%"}}> <div className="inline text1 h-[95%]  w-[95%] z-[20]  absolute"></div> <div className="z-[99] h-auto w-auto bg-black   " style={{borderRadius:"50%",margin:"2px"}}><FaWhatsapp size={`${ismobile?"3.5em":"1.5em"}`}  style={{zIndex:"99"}}/></div></div>              </li>
-
+              <div className="parentdiv relative flex justify-center items-center   overflow-hidden" style={{borderRadius:"50%"}}> <div className="inline text1 h-[95%]  w-[95%] z-[20]  absolute"></div> <a href="https://www.linkedin.com/in/ayushmaan-agarwal-8064a4258/" className="z-[99] h-[auto] w-[auto] overflow-hidden bg-black   " style={{borderRadius:"50%",margin:"2px"}}><FaLinkedin size={`${ismobile?"3.5em":"1.5em"}`}  style={{zIndex:"99"}}/></a></div>              </li>
+             
               <li className={`${startanimate4 ? "toupanimate1" : "opacity-0"}`}>
-              <div className="parentdiv relative flex justify-center items-center   overflow-hidden" style={{borderRadius:"50%"}}> <div className="inline text1 h-[95%]  w-[95%] z-[20]  absolute"></div> <div className="z-[99] h-[auto] w-[auto] bg-black   " style={{borderRadius:"50%",overflow:"hidden",margin:"2px"}}><FaInstagram size={`${ismobile?"3.5em":"1.5em"}`}  style={{zIndex:"99",borderRadius:"50%"}}/></div></div>              </li>
+              <div className="parentdiv relative flex justify-center items-center   overflow-hidden" style={{borderRadius:"50%"}}> <div className="inline text1 h-[95%]  w-[95%] z-[20]  absolute"></div> <a href="https://www.instagram.com/ayushmaanagarwal12?igsh=MTlxdmc0MzZsdXowag==" className="z-[99] h-[auto] w-[auto] bg-black   " style={{borderRadius:"50%",overflow:"hidden",margin:"2px"}}><FaInstagram size={`${ismobile?"3.5em":"1.5em"}`}  style={{zIndex:"99",borderRadius:"50%"}}/></a></div>              </li>
             </ul>
           </div>
         </div>
