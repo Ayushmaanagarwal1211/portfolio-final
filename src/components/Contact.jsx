@@ -70,7 +70,7 @@ setTimeout(() => {
 }, 1000);
 return
     }
- fetch('http://localhost:3001/mail',{
+ fetch('https://backend-dsro.onrender.com',{
     method:"POST",
     headers:{'Content-type':"application/json"},
     body:JSON.stringify({
